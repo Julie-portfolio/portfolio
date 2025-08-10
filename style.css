@@ -77,7 +77,42 @@ body {
   white-space: pre-wrap;
   line-height: 1.6;
 }
+@media screen and (max-width: 768px) {
+  .ide-wrapper {
+    margin: 20px;
+    border: none;
+    box-shadow: none;
+  }
+
+  .ide-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .tab-bar {
+    flex-direction: column;
+  }
+
+  .tab {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+  }
+
+  .editor {
+    padding: 15px;
+    font-size: 0.95rem;
+  }
+
+  .profile img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
 
 .comment {
   color: #6a9955;
 }
+
